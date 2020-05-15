@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    margin-top: 44px;
+}
+
+.fleft{
+    float: left;
+}
+
+.fright{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    font-size: 22px;
+}
+
+.addNew{
+    padding: 2px 9px;
+}
+
+table.list{
+    width: 100%;
+    margin-top: 33px;
+}
+table.list th{
+    background: #e83e8c;
+    color:#ece9e9;
+    padding: 9px;
+}
+
+table.list td{
+    padding: 9px;
+    text-align: center;
+}
+table.list tr{
+    background: #EEEEEE;
+}
+
+button{
+    padding: 2px 9px;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0, 0.4);
+}
+
+.modalContainer{
+    width: 550px;
+    background: #FFFFFF;
+    margin: auto;
+    margin-top: 44px;
+}
+
+.modalHeading{
+    padding: 9px;
+    background: #dc3545;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.modalContent{
+    min-height: 330px;
+    padding: 44px;
+
+}
+
+.crossBox{
+    padding: 2px 6px;
+    background: #e83e8c;
+    border: none;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #e83e8c;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+input{
+    padding: 5px;
+}
+
+
+p.errorMessage{
+    background: #df8080;
+    color: #300202;
+    border-left: 5px solid #e83e8c;
+    padding: 9px;
+    margin: 22px 0;
+}
+
+
+p.successMessage{
+    background: #D8EFC2;
+    color: #104f02;
+    border-left: 5px solid #37d014;
+    padding: 9px;
+    margin: 22px 0;
+}
+
